@@ -5,8 +5,6 @@ metadata:
   name: springboot-kab
 spec:
   applicationImage: dev.local/springboot-kab
-  targetNamespaces:
-    - kravindra-in
   createKnativeService: false
   expose: true
   livenessProbe:
